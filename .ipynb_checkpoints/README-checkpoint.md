@@ -18,7 +18,7 @@ Open up the incremental_model code (either app or notebook) and see the line tha
 The model currently uses ARIMA to forecast a baseline that we use as a pseudo-control. You can add or remove features in this section using standard R notation used for defining models.
 
 ## Step-by-step manual
-* coming soon
+* [Click Here](https://docs.google.com/document/d/1GwTTLHSSLzgA4waC5bFaPW1DX49HDE2FqOzJD29L8hY/edit?usp=sharing)
 
 ## Examples for previous analysis using the incremental model
 * [Product Launches](https://drive.google.com/drive/u/0/folders/1VhkLELAYES8JtqmBBcqAPO-2bMs05UYY)
