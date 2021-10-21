@@ -5,12 +5,14 @@ This repo contains the incrementality model used to measure the incremental impa
 * SQL: Contains the sql files used by the model to pull the number of rug sales, ad spend, and heap sessions
 * functions.R: defines helper functions used by the incrementality model
 * incremental_model_nb.ipynb: contains a jupyter notebook where you can run code blocks and measure incrementality manually
+
+*WIP:
 * incremental_model_app.R: holds the shiny code to create a self service tool
 * run_app.R: run this to open the self service tool that measure incrementality using an easy to understand UI
 
 ## How to use this
 #### If you are looking to simply measure incrementality... 
-You can use either incremental_model_nb or incremental_model_app. The notebook is be more manual but gives more control for the user while the app will open a UI that is much more user-friendly but lacks more insight into the inner workings. See step-by-step manual before running.
+You can use either incremental_model_nb or incremental_model_app. The notebook is more manual but gives more control for the user while the app will open a UI that is much more user-friendly but lacks more insight into the inner workings. See step-by-step manual before running. *NOTE: App is a WIP and not ready*
 
 #### If you are looking to make modifications and add new features to the model... 
 Open up the incremental_model code (either app or notebook) and see the line that starts with ```fit <- df_train...```
