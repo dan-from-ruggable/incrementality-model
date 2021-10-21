@@ -6,7 +6,7 @@ This repo contains the incrementality model used to measure the incremental impa
 * functions.R: defines helper functions used by the incrementality model
 * incremental_model_nb.ipynb: contains a jupyter notebook where you can run code blocks and measure incrementality manually
 
-*WIP:
+*WIP:*
 * incremental_model_app.R: holds the shiny code to create a self service tool
 * run_app.R: run this to open the self service tool that measure incrementality using an easy to understand UI
 
